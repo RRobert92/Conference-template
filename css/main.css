@@ -860,7 +860,6 @@ input::-moz-focus-inner {
 .social a {
   color: white;
 }
-
 /* ------------------------------------------------------------------- 
  * alert box - (_alert-box.scss)
  * ------------------------------------------------------------------- */
@@ -1430,7 +1429,7 @@ h1.intro-header-sp::before {
 
 #home {
   width: 100%;
-  height: 786px;
+  height: 1020px;
   min-height: 786px;
   background-color: transparent;
   position: relative;
@@ -1543,6 +1542,101 @@ h1.intro-header-sp::before {
 }
 
 
+/* home social-list */
+
+.home-social-list {
+  position: absolute;
+  right: 42px;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 2.2rem;
+  line-height: 1.75;
+  text-align: center;
+  -webkit-transform: translateY(-55%);
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
+}
+
+.home-social-list::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.home-social-list li {
+  padding-left: 0;
+}
+
+.home-social-list li a,
+.home-social-list li a:visited {
+  color: #FFFFFF;
+}
+
+.home-social-list li a:hover,
+.home-social-list li a:focus,
+.home-social-list li a:active {
+  color: #44c455;
+}
+
+
+/* scroll down */
+
+.home-scrolldown {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  float: right;
+}
+
+.home-scrolldown i {
+  padding-left: 9px;
+}
+
+.home-scrolldown a:hover,
+.home-scrolldown a:focus {
+  color: #232323 !important;
+}
+
+html[data-useragent*='MSIE 10.0'] .home-scrolldown,
+.oldie .home-scrolldown {
+  display: none;
+}
+
+.scroll-icon {
+  display: inline-block;
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  color: #000000 !important;
+  background: transparent;
+  position: relative;
+  top: 36px;
+  right: 42px;
+  -webkit-animation: animate-it 3s ease infinite;
+  animation: animate-it 3s ease infinite;
+}
+
+.scroll-icon i {
+  font-size: 2.4rem;
+  position: relative;
+  bottom: -6px;
+}
+
+
 /* vertical animation */
 
 @-webkit-keyframes animate-it {
@@ -1607,7 +1701,7 @@ h1.intro-header-sp::before {
 
 @media only screen and (max-width: 1300px) {
   .home-image-right {
-    right: 5rem;
+    right: 2rem;
   }
 }
 
@@ -1632,7 +1726,7 @@ h1.intro-header-sp::before {
   }
   .home-image-right img {
     vertical-align: top;
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -1662,7 +1756,7 @@ h1.intro-header-sp::before {
   }
   .home-image-right img {
     vertical-align: top;
-    width: 100%;
+    width: 1200%;
   }
 }
 
@@ -1679,12 +1773,10 @@ h1.intro-header-sp::before {
   .home-content-left {
     width: 94%;
     position: static;
-    padding: 15rem 6rem 366px;
+    padding: 15rem 6rem 36px;
     margin: 0 auto;
   }
-  .home-content-left h1 {
-    margin-bottom: 3.6rem;
-  }
+
   .home-image-right {
     width: 400px;
     right: auto;
@@ -1723,9 +1815,20 @@ h1.intro-header-sp::before {
     min-width: 0;
     max-width: 280px;
   }
+  .home-social-list {
+    font-size: 2rem;
+    right: 30px;
+  }
+  .scroll-icon {
+    top: 21px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .home-social-list,
+  .home-scrolldown {
+    display: none;
+  }
   .home-content-left {
     padding: 12rem 2.5rem 366px;
     width: 100%;
