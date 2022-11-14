@@ -1545,13 +1545,13 @@ h1.intro-header-sp::before {
   display: block;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 44%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-top: 21rem;
   z-index: 500;
-  width: 50%;
+  width: 55%;
   text-align: right;
 }
 
@@ -1730,12 +1730,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * home section 
  * ------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1300px) {
-  .home-image-right {
-    right: 5rem;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   #home {
     overflow: hidden;
@@ -1759,6 +1753,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
   .home-image-right {
     padding-top: 18rem;
+    width: 70%;
+    top: 50%;
   }
 
   .home-image-right img {
@@ -1774,6 +1770,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
   .home-content-left h1 br {
     display: none;
+  }
+  .home-image-right {
+    width: 80%;
+    top: 55%;
   }
 }
 
@@ -1792,7 +1792,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
   .home-image-right {
-    width: 40%;
+    width: 50%;
+    top: 59%;
     padding-top: 120px;
   }
 
@@ -1828,7 +1829,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-image-right {
     width: 400px;
     right: auto;
-    top: auto;
+    top: 50%;
     left: 50%;
     bottom: 0;
     -webkit-transform: translateX(-50%);
@@ -1850,6 +1851,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
   .home-content-left h1 {
     font-size: 3.6rem;
+  }
+
+  .home-image-right {
+    width: 40%;
+    top: 55%;
   }
 }
 
@@ -1876,6 +1882,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .scroll-icon {
     top: 21px;
   }
+  .home-image-right {
+    width: 50%;
+    top: 50%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1893,6 +1903,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-content-left h1 {
     font-size: 3rem;
   }
+  .home-image-right {
+    width: 50%;
+    top: 55%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1905,11 +1919,25 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
   .home-image-right {
-    width: 320px;
-    margin-bottom: -298px;
+    width: 50%;
+    top: 56%;
   }
 }
 
+@media only screen and (max-width: 250px) {
+  .home-content-left {
+    padding: 12rem 0 300px;
+  }
+
+  .home-content-left .button.stroke {
+    margin: 0 0 1.2rem 0;
+  }
+
+  .home-image-right {
+    width: 60%;
+    top: 65%;
+  }
+}
 
 
 /* ===================================================================
