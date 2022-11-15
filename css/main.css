@@ -1545,7 +1545,7 @@ h1.intro-header-sp::before {
   display: block;
   position: absolute;
   right: 0;
-  top: 44%;
+  top: 36%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
