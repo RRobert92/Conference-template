@@ -1946,7 +1946,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #faq {
-  min-height: 786px;
+  min-height: 250px;
   background: #000000;
   padding-top: 5rem;
   overflow: hidden;
