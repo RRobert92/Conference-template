@@ -2525,6 +2525,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #pricing {
+  min-height: 350px;
   background: #000000;
   padding-top: 2rem;
   padding-bottom: 5;
