@@ -1100,6 +1100,15 @@ h1.intro-header {
   padding-bottom: 2rem;
 }
 
+h1.session-header {
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 3.4rem;
+  line-height: 1.324;
+  color: #e6e5e5;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
 h1.intro-header-sp {
   font-family: "montserrat-regular", sans-serif;
   font-size: 3.4rem;
@@ -1111,6 +1120,17 @@ h1.intro-header-sp {
 }
 
 h1.intro-header::before {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: #e98527;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+h1.session-header::before {
   display: block;
   content: "";
   height: 2px;
@@ -2073,7 +2093,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * about 
+ * faq 
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1200px) {
@@ -2215,8 +2235,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-intro {
-  padding-bottom: 3.6rem;
+  padding-bottom: 1rem;
   border-bottom: 2px solid rgba(227, 227, 227, 0.444);
+}
+
+.about-session {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .about-features .features-list {
@@ -2241,10 +2266,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.9rem;
   color: #e6e5e5;
-  text-align: left;
+  text-align: right;
   margin-bottom: 3rem;
 }
-
+.about-features .feature p {
+  text-align: right;
+}
 .about-how {
   padding-top: 7.2rem;
   padding-bottom: 5rem;
@@ -2253,8 +2280,18 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .about-how h1.intro-header {
   text-align: center;
 }
+.about-how h1.intro-session {
+  text-align: center;
+}
 
 #about .about-how h1.intro-header::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#about .about-how h1.session-header::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -2346,6 +2383,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     text-align: center;
   }
 
+  .about-session {
+    max-width: 800px;
+    text-align: center;
+  }
+
   .about-intro h1::before {
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -2353,7 +2395,22 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     transform: translateX(-50%);
   }
 
+  .about-session h1::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
   .about-intro [class*="col-"] {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-session [class*="col-"] {
     width: 100% !important;
     float: none !important;
     clear: both !important;
