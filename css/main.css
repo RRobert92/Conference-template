@@ -2900,7 +2900,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   height: 300px;
   background-image: url("../images/avatars/org_ku.png");
 }
-
+#organizer .organizer-badges li a.badge-org-iv {
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/avatars/org_iv.jpeg");
+}
 #organizer .organizer-badges li a.badge-sb-tb {
   width: 300px;
   height: 300px;
