@@ -2794,7 +2794,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #speaker .row {
-  max-width: 800px;
+  max-width: 1600px;
 }
 
 #speaker .speaker-badges {
@@ -2861,7 +2861,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #organizer .row {
-  max-width: 800px;
+  max-width: 1600px;
 }
 
 #organizer .organizer-badges {
@@ -2957,7 +2957,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #sponsors .row {
-  max-width: 800px;
+  max-width: 1600px;
 }
 
 #sponsors .sponsors-badges {
@@ -3256,7 +3256,7 @@ footer ul a:visited {
 
 @media only screen and (max-width: 1024px) {
   .footer-main>.row {
-    max-width: 800px;
+    max-width: 1200px;
   }
 
   .footer-info,
