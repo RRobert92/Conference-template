@@ -2762,7 +2762,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 /* ===================================================================
  *  14. Speaker - (_layout.scss)
- *
  * ------------------------------------------------------------------- */
 
 #speaker {
@@ -2830,7 +2829,6 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 /* ===================================================================
 *  14. organizer - (_layout.scss)
-*
 * ------------------------------------------------------------------- */
 
 #organizer {
@@ -2889,7 +2887,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-position: center;
   background-size: 300px 300px;
 }
-
+/* Organizer's */
 #organizer .organizer-badges li a.badge-org-rk {
   width: 300px;
   height: 300px;
@@ -2905,12 +2903,29 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   height: 300px;
   background-image: url("../images/avatars/org_iv.jpeg");
 }
+/* Scientific board */
 #organizer .organizer-badges li a.badge-sb-tb {
   width: 300px;
   height: 300px;
   background-image: url("../images/avatars/sb_tb.jpeg");
 }
 
+/* Speaker's */
+#organizer .organizer-badges li a.badge-sp-sr {
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/avatars/sp_SR.jpg");
+}
+#organizer .organizer-badges li a.badge-sp-tmr {
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/avatars/sp_TMR.jpg");
+}
+#organizer .organizer-badges li a.badge-sp-ts {
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/avatars/sp_TS.jpg");
+}
 /* ===================================================================
 *  14. sponsors - (_layout.scss)
 *
