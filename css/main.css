@@ -1090,7 +1090,6 @@ input::-moz-focus-inner {
  *  08. common and reusable theme styles 
  *
  * ------------------------------------------------------------------- */
-
 h1.intro-header {
   font-family: "montserrat-regular", sans-serif;
   font-size: 3.4rem;
@@ -2536,20 +2535,20 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   min-height: 350px;
   background: #000000;
   padding-top: 2rem;
-  padding-bottom: 5;
+  padding-bottom: 1;
 }
 
 #pricing h1 {
-  margin-bottom: 3.6rem;
+  margin-bottom: 0rem;
 }
 
 #pricing p {
   color: #dfdfdf;
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .pricing-intro {
-  padding-top: .6rem;
+  padding-top: 0rem;
 }
 
 .pricing-table {
@@ -2577,20 +2576,23 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 .pricing-table .plan-block .plan-block-price {
   font-family: "montserrat-medium", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1rem;
   color: #151515;
   line-height: 1;
   margin-bottom: 0;
 }
 
-.pricing-table .plan-block.closed .plan-block-features {
+.pricing-table .plan-block.opened .plan-block-features {
   color: #e6e5e5;
+}
+.pricing-table .plan-block.closed .plan-block-features {
+  color: #9b9b9b64;
 }
 
 .pricing-table .plan-block .plan-block-price sup {
   font-family: "montserrat-regular", sans-serif;
-  font-size: 2rem;
-  top: -3.6rem;
+  font-size: 1.5rem;
+  top: -2.8rem;
   margin-right: 3px;
 }
 
@@ -2624,9 +2626,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   color: #e6e5e5;
 }
 
+.pricing-table .plan-block.opened {
+  background: #9b9b9b64;
+  color: rgba(40, 40, 40, 0.334);
+}
 .pricing-table .plan-block.closed {
-  background: #bbbbbb7e;
-  color: rgba(40, 40, 40, 0.036);
+  background: #4a4a4a64;
+  color: rgba(40, 40, 40, 0.334);
 }
 
 .pricing-table .plan-block.primary .plan-block-title,
@@ -2634,23 +2640,33 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   color: #e6e5e5;
 }
 
+.pricing-table .plan-block.opened .plan-block-title,
+.pricing-table .plan-block.opened .plan-block-price {
+  color: #e6e5e5;
+}
 .pricing-table .plan-block.closed .plan-block-title,
 .pricing-table .plan-block.closed .plan-block-price {
-  color: #e6e5e5;
+  color: #cecdcd82;
 }
 
 .pricing-table .plan-block.primary .plan-block-features {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.pricing-table .plan-block.opened .plan-block-features {
+  border-top: 1.5px solid rgba(205, 107, 9, 0.2);
+}
 .pricing-table .plan-block.closed .plan-block-features {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1.5px solid rgba(0, 0, 0, 0.2);
 }
 
 .pricing-table .plan-block.primary .plan-block-features li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.pricing-table .plan-block.opened .plan-block-features li {
+  border-top: 1.5px solid rgba(205, 107, 9, 0.2);
+}
 .pricing-table .plan-block.closed .plan-block-features li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -2659,6 +2675,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   color: #ffffff;
 }
 
+.pricing-table .plan-block.opened .plan-block-features li span {
+  color: #ffffff;
+}
 .pricing-table .plan-block.closed .plan-block-features li span {
   color: #ffffff;
 }
@@ -2669,10 +2688,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   border-color: #1e8f20;
 }
 
-.pricing-table .plan-block.closed .button.button-primary {
-  background: #a92424;
+.pricing-table .plan-block.opened .button.button-primary {
+  background: #e98527;
   color: #1c1b1b;
-  border-color: #a22121;
+  border-color: #e98527;
+}
+.pricing-table .plan-block.closed .button.button-primary {
+  background: #a9242474;
+  color: #1c1b1b;
+  border-color: #a9242400;
 }
 
 .pricing-table .plan-block.primary .button.button-primary:hover,
@@ -2680,9 +2704,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   color: #39b54a;
 }
 
+.pricing-table .plan-block.opened .button.button-primary:hover,
+.pricing-table .plan-block.opened .button.button-primary:focus {
+  color: #303030;
+}
 .pricing-table .plan-block.closed .button.button-primary:hover,
 .pricing-table .plan-block.closed .button.button-primary:focus {
-  color: #303030;
+  color: #d17111;
 }
 
 .pricing-table .plan-bottom-part {
