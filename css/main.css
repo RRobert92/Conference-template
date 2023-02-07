@@ -814,8 +814,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  background: #4c1717;
-  border-color: #4c1717;
+  background: #4a2a0d;
+  border-color: #4a2a0d;
 }
 
 button.full-width,
