@@ -172,6 +172,14 @@ p.lead {
   color: #969696;
   margin-bottom: 3.6rem;
 }
+p.lead-p {
+  font-family: "muli-light", sans-serif;
+  font-size: 2.1rem;
+  text-align: justify;
+  line-height: 1.857;
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 3.6rem;
+}
 
 @media only screen and (max-width: 768px) {
   p.lead {
@@ -791,8 +799,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #b53939;
-  border-color: #b53939;
+  background-color: #e98527;
+  border-color: #e98527;
   color: #FFFFFF;
 }
 
@@ -2244,6 +2252,10 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   border-bottom: 2px solid rgba(227, 227, 227, 0.444);
 }
 
+.about-program {
+  padding-bottom: 1rem;
+}
+
 .about-session {
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -2372,6 +2384,177 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   vertical-align: bottom;
 }
 
+/* -------------------------------------------------------------------
+*program
+*
+* -------------------------------------------------------------------- */
+#program {
+  min-height: 25%;
+  background: #e98527;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+.program-intro {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.532);
+}
+
+.program-session {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.program-features .features-list {
+  padding-top: 5.4rem;
+}
+
+.program-features .feature {
+  margin-bottom: 1.8rem;
+}
+
+.program-features .feature .icon {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.program-features .feature .icon i {
+  color: #ffffff;
+  font-size: 4.8rem;
+}
+
+.program-features .feature h3 {
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 1.9rem;
+  color: #000000;
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+.program-features .feature p {
+  text-align: justify;
+}
+.program-how {
+  padding-top: 7.2rem;
+  padding-bottom: 5rem;
+}
+
+.program-how h1.intro-header {
+  text-align: center;
+}
+.program-how h1.intro-session {
+  text-align: center;
+}
+
+#program .program-how h1.intro-header::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#program .program-how h1.session-header::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.service-content {
+  text-align: justify;
+}
+.program-how-content {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 300px;
+  margin-top: 7.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+.program-how-content::before,
+.program-how-content::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+}
+
+.program-how-content::before {
+  left: 0;
+}
+
+.program-how-content::after {
+  left: 50%;
+}
+
+.program-how-content .program-how-steps {
+  width: 100%;
+}
+
+.program-how-content .step {
+  padding: 0 40px 1.5rem 60px;
+  position: relative;
+  min-height: 240px;
+}
+
+.program-how-content .step h3 {
+  margin-bottom: 2.4rem;
+}
+
+.program-how-content .step::before {
+  display: block;
+  font-family: "muli-bold";
+  font-size: 2rem;
+  content: attr(data-item);
+  color: #ffffff;
+  height: 54px;
+  width: 54px;
+  line-height: 54px;
+  text-align: justify;
+  border-radius: 50%;
+  background-color: #39b54a;
+  box-shadow: 0 0 0 15px #ffffff;
+  z-index: 500;
+  position: absolute;
+  top: -12px;
+  left: -27px;
+}
+
+.program-bottom-image img {
+  vertical-align: bottom;
+}
+#about .about-badges{
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+#about .about-badges li {
+  display: inline-block;
+  margin: 0 7.5px;
+  padding-left: 0;
+  padding-top: 2.5rem;
+}
+#about .about-badges li a {
+  display: block;
+  width: 800px;
+  height: 600px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 600px;
+}
+#about .about-badges li a.badge-venue {
+  width: 800px;
+  height: 600px;
+  background-image: url("../images/venue.jpeg");
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2389,6 +2572,19 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     max-width: 800px;
     text-align: center;
   }
+  .about-program {
+    max-width: 800px;
+    text-align: center;
+  }
+    #about .about-badges li a.badge-venue {
+    width: 600px;
+    height: 400px;
+  }
+  #about .about-badges li a {
+    width: 600px;
+    height: 400px;
+    background-size: 600px 400px;
+  }
 
   .about-session {
     max-width: 800px;
@@ -2396,6 +2592,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
   .about-intro h1::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .about-program h1::before {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -2410,6 +2613,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
   .about-intro [class*="col-"] {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about-program [class*="col-"] {
     width: 100% !important;
     float: none !important;
     clear: both !important;
@@ -2433,6 +2644,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 @media only screen and (max-width: 850px) {
   .about-how-content {
     max-width: 550px;
+  }
+
+  #about .about-badges li a.badge-venue {
+    width: 400px;
+    height: 300px;
+  }
+  #about .about-badges li a {
+    width: 400px;
+    height: 300px;
+    background-size: 400px 300px;
   }
 
   .about-how-content::after {
@@ -2505,6 +2726,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 @media only screen and (max-width: 400px) {
   .about-how-content {
     text-align: justify;
+  }
+
+  #about .about-badges li a.badge-venue {
+    width: 300px;
+    height: 200px;
+  }
+  #about .about-badges li a {
+    width: 300px;
+    height: 200px;
+    background-size: 300px 200px;
   }
 
   .about-how-content::before {
@@ -2922,6 +3153,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-position: center;
   background-size: 300px 300px;
 }
+
 /* Organizer's */
 #organizer .organizer-badges li a.badge-org-rk {
   width: 300px;
@@ -3054,7 +3286,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   height: 120px;
   background-image: url("../images/sponsors/smlc.jpg");
 }
-
+#sponsors .sponsors-badges li a.badge-placeholder-fl {
+  width: 300px;
+  height: 120px;
+  background-image: url("../images/sponsors/flatiron.jpg");
+}
 /* ------------------------------------------------------------------- 
 * responsive:
 * sponsors
