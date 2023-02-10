@@ -2542,18 +2542,18 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .program-bottom-image img {
   vertical-align: bottom;
 }
-#about .about-badges{
+#about-vn .about-vn-badges{
   list-style: none;
   margin: 0;
   text-align: center;
 }
-#about .about-badges li {
+#about-vn .about-vn-badges li {
   display: inline-block;
   margin: 0 7.5px;
   padding-left: 0;
   padding-top: 2.5rem;
 }
-#about .about-badges li a {
+#about-vn .about-vn-badges li a {
   display: block;
   width: 800px;
   height: 600px;
@@ -2564,7 +2564,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-position: center;
   background-size: 800px 600px;
 }
-#about .about-badges li a.badge-venue {
+#about-vn .about-vn-badges li a.badge-venue {
   width: 800px;
   height: 600px;
   background-image: url("../images/venue.jpeg");
