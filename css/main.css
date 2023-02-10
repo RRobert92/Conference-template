@@ -2254,6 +2254,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   overflow: hidden;
 }
 
+#about-vn {
+  min-height: 25%;
+  background: #000000;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
 .about-intro {
   padding-bottom: 1rem;
   border-bottom: 2px solid rgba(227, 227, 227, 0.444);
