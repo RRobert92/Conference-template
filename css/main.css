@@ -3489,6 +3489,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-size: 300px 120px;
 }
 
+#sponsors .sponsors-badges li a.badge-placeholder-cob {
+  width: 300px;
+  height: 120px;
+  background-image: url("../images/sponsors/cob.jpg");
+}
 #sponsors .sponsors-badges li a.badge-placeholder-crg {
   width: 300px;
   height: 120px;
