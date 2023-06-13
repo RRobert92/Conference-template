@@ -3500,6 +3500,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   height: 120px;
   background-image: url("../images/sponsors/flatiron.jpg");
 }
+#sponsors .sponsors-badges li a.badge-placeholder-embo {
+  width: 300px;
+  height: 120px;
+  background-image: url("../images/sponsors/embo.svg");
+}
 /* ------------------------------------------------------------------- 
 * responsive:
 * sponsors
