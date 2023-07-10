@@ -3380,6 +3380,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   height: 300px;
   background-image: url("../images/avatars/sb_tb.jpeg");
 }
+#organizer-or .organizer-or-badges li a.badge-sb-fr {
+  width: 300px;
+  height: 300px;
+  background-image: url("../images/avatars/sb_fr.jpg");
+}
 
 /* Speaker's */
 #organizer .organizer-badges li a.badge-sp-sr {
