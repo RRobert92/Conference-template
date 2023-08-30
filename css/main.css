@@ -216,7 +216,7 @@ blockquote {
 blockquote:before {
   content: "\201C";
   font-size: 10rem;
-  line-height: 0px;
+  line-height: 0;
   margin: 0;
   color: rgba(0, 0, 0, 0.3);
   font-family: arial, sans-serif;
@@ -1045,7 +1045,7 @@ input::-moz-focus-inner {
 
 .pull-quote {
   position: relative;
-  padding: 2.1rem 3rem 2.1rem 0px;
+  padding: 2.1rem 3rem 2.1rem 0;
 }
 
 .pull-quote:before,
@@ -2303,7 +2303,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 .calendar td {
   border: 1px solid rgba(204, 204, 204, 0.43);
   text-align: center;
-  padding: 0.5rem 0rem;
+  padding: 0.5rem 0;
   position: relative;
 }
 .calendar button {
@@ -2918,7 +2918,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #pricing h1 {
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 #pricing p {
@@ -2927,7 +2927,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .pricing-intro {
-  padding-top: 0rem;
+  padding-top: 0;
 }
 
 .pricing-table {
