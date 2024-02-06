@@ -72,7 +72,7 @@ body {
   font-family: "muli-regular", sans-serif;
   font-size: 1.6rem;
   line-height: 1.875;
-  color: #000000;
+  color: rgba(231, 227, 227, 0.66);
   margin: 0;
   padding: 0;
 }
@@ -84,14 +84,14 @@ body {
 
 a,
 a:visited {
-  color: #e98527;
+  color: #4f8bd0;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #e98527;
+  color: #4F8BD0FF;
 }
 
 
@@ -836,8 +836,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  background-color: #e98527;
-  border-color: #e98527;
+  background-color: #4F8BD0FF;
+  border-color: #4F8BD0FF;
   color: #FFFFFF;
 }
 
@@ -876,7 +876,7 @@ button.large,
 button.stroke,
 .button.stroke {
   background: transparent !important;
-  color: #e98527 !important;
+  color: #4F8BD0FF !important;
 }
 
 button.stroke:hover,
@@ -1168,7 +1168,7 @@ h1.intro-header::before {
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #e98527;
+  background-color: #4F8BD0FF;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1179,7 +1179,7 @@ h1.session-header::before {
   content: "";
   height: 2px;
   width: 70px;
-  background-color: #e98527;
+  background-color: #4F8BD0FF;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1266,7 +1266,7 @@ h1.intro-header-sp::before {
   border: none;
   width: 200px;
   height: 48px;
-  background: url("../images/logo.png") no-repeat center;
+  /*background: url("../images/logo.png") no-repeat center;*/
   background-size: 200px 48px;
   font: 0/0 a;
   text-shadow: none;
@@ -1312,7 +1312,7 @@ h1.intro-header-sp::before {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: #e98527;
+  background-color: #4F8BD0FF;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   font: 0/0 a;
@@ -1348,7 +1348,7 @@ h1.intro-header-sp::before {
 
 .header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
-  background-color: #e98527;
+  background-color: #4F8BD0FF;
 }
 
 .header-menu-toggle.is-clicked span::before {
@@ -1403,7 +1403,7 @@ h1.intro-header-sp::before {
 
 #header-nav-wrap .header-main-nav li a:hover,
 #header-nav-wrap .header-main-nav li a:focus {
-  color: #e98527;
+  color: #4F8BD0FF;
 }
 
 #header-nav-wrap .header-main-nav li.current a {
@@ -1565,9 +1565,9 @@ h1.intro-header-sp::before {
 }
 
 .home-content-left {
-  padding: 15rem 0 12rem 40px;
+  padding: 25rem 0 12rem 40px;
   position: relative;
-  width: 50%;
+  width: 80%;
 }
 
 .home-content-left h3 {
@@ -1581,11 +1581,11 @@ h1.intro-header-sp::before {
 
 .home-content-left h1 {
   font-family: "montserrat-regular", sans-serif;
-  font-size: 5.2rem;
+  font-size: 4rem;
   letter-spacing: -.05rem;
   line-height: 1.269;
   color: #ffffff;
-  margin-bottom: 9rem;
+  margin-bottom: 15rem;
 }
 
 .home-content-left .button.stroke {
@@ -1875,7 +1875,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
   .home-content-left h1 {
-    margin-bottom: 3.6rem;
+    margin-bottom: 3.3rem;
   }
 
   .home-image-right {
@@ -1902,7 +1902,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   }
 
   .home-content-left h1 {
-    font-size: 3.6rem;
+    font-size: 3.3rem;
   }
 
   .home-image-right {
@@ -2022,7 +2022,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .faq-features .feature .icon i {
-  color: #e98527;
+  color: #4F8BD0FF;
   font-size: 4.8rem;
 }
 
@@ -2284,6 +2284,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   width: 100%;
   height: 100%;
   display: table;
+  color: #a6a6a6;
   /* table-layout: fixed; */
 }
 
@@ -2417,7 +2418,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .about-features .feature .icon i {
-  color: #e98527;
+  color: #000000;
   font-size: 4.8rem;
 }
 
@@ -2536,14 +2537,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 * -------------------------------------------------------------------- */
 #program {
   min-height: 25%;
-  background: #e98527;
+  background: #000000;
   padding-top: 5rem;
   overflow: hidden;
 }
 
 .program-intro {
   padding-bottom: 1rem;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.532);
+  border-bottom: 2px solid rgba(204, 204, 204, 0.43);
 }
 
 .program-session {
@@ -2565,14 +2566,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .program-features .feature .icon i {
-  color: #ffffff;
+  color: rgba(204, 204, 204, 0.43);
   font-size: 4.8rem;
 }
 
 .program-features .feature h3 {
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.9rem;
-  color: #000000;
+  color: rgba(204, 204, 204, 0.43);
   text-align: right;
   margin-bottom: 3rem;
 }
@@ -2657,14 +2658,14 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   font-family: "muli-bold";
   font-size: 2rem;
   content: attr(data-item);
-  color: #ffffff;
+  color: rgba(204, 204, 204, 0.43);
   height: 54px;
   width: 54px;
   line-height: 54px;
   text-align: justify;
   border-radius: 50%;
   background-color: #39b54a;
-  box-shadow: 0 0 0 15px #ffffff;
+  box-shadow: 0 0 0 15px rgba(204, 204, 204, 0.43);
   z-index: 500;
   position: absolute;
   top: -12px;
@@ -2765,7 +2766,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     clear: both !important;
     margin-left: 0;
     margin-right: 0;
-    color: #1a73e8;
+    color: (227, 227, 227, 0.444);
   }
 
   .about-program [class*="col-"] {
@@ -3068,9 +3069,9 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 .pricing-table .plan-block.opened .button.button-primary {
-  background: #e98527;
+  background: #4F8BD0FF;
   color: #1c1b1b;
-  border-color: #e98527;
+  border-color: #4F8BD0FF;
 }
 .pricing-table .plan-block.closed .button.button-primary {
   background: #a9242474;
@@ -3179,7 +3180,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * ------------------------------------------------------------------- */
 
 #speaker {
-  background: #e98527;
+  background: #4F8BD0FF;
   color: #2f2f2f;
   padding-top: 2rem;
   padding-bottom: 5rem;
@@ -3246,16 +3247,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 * ------------------------------------------------------------------- */
 
 #organizer {
-  background: #e98527;
-  color: #2f2f2f;
+  background: #4F8BD0FF;
+  color: rgba(231, 227, 227, 0.66);
   padding-top: 2rem;
   padding-bottom: 5rem;
   text-align: center;
 }
 
 #organizer-or {
-  background: #e98527;
-  color: #2f2f2f;
+  background: #4F8BD0FF;
+  color: rgba(231, 227, 227, 0.66);
   padding-top: 2rem;
   padding-bottom: 5rem;
   text-align: center;
@@ -3293,12 +3294,12 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 #organizer .lead {
-  color: #969696;
+  color: rgba(231, 227, 227, 0.66);
   margin-top: 4.8rem;
 }
 
 #organizer-or .lead {
-  color: #969696;
+  color: rgba(231, 227, 227, 0.66);
   margin-top: 4.8rem;
 }
 
@@ -3337,91 +3338,67 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 #organizer .organizer-badges li a {
   display: block;
   width: 300px;
-  height: 300px;
+  height: 400px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300px 300px;
+  background-size: 300px 400px;
 }
 
 #organizer-or .organizer-or-badges li a {
   display: block;
   width: 300px;
-  height: 300px;
+  height: 400px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300px 300px;
+  background-size: 300px 400px;
 }
 
 /* Organizer's */
 #organizer-or .organizer-or-badges li a.badge-org-rk {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/org_rk.png");
-}
-#organizer-or .organizer-or-badges li a.badge-org-ku {
-  width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/org_ku.png");
-}
-#organizer-or .organizer-or-badges li a.badge-org-iv {
-  width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/org_iv.jpeg");
-}
-#organizer-or .organizer-or-badges li a.badge-org-ss {
-  width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/org_ss.png");
+  height: 400px;
+  background-image: url("../images/avatars/org_rk.jpeg");
 }
 /* Scientific board */
-#organizer-or .organizer-or-badges li a.badge-sb-tb {
+#organizer-or .organizer-or-badges li a.badge-org-tb {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sb_tb.jpeg");
-}
-#organizer-or .organizer-or-badges li a.badge-sb-fr {
-  width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sb_fr.jpg");
+  height: 400px;
+  background-image: url("../images/avatars/org_tb.jpeg");
 }
 
-/* Speaker's */
-#organizer .organizer-badges li a.badge-sp-sr {
+#organizer-or .organizer-or-badges li a.badge-org-adm {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sp_SR.jpg");
+  height: 400px;
+  background-image: url("../images/avatars/org_adm.jpeg");
 }
-#organizer .organizer-badges li a.badge-sp-tmr {
+
+#organizer-or .organizer-or-badges li a.badge-org-an {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sp_TMR.jpg");
+  height: 400px;
+  background-image: url("../images/avatars/org_an.jpeg");
 }
-#organizer .organizer-badges li a.badge-sp-ts {
+#organizer-or .organizer-or-badges li a.badge-org-dg {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sp_TS.jpg");
+  height: 400px;
+  background-image: url("../images/avatars/org_dg.jpeg");
 }
-#organizer .organizer-badges li a.badge-sp-am {
+#organizer-or .organizer-or-badges li a.badge-org-ai {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sp_AM.jpg");
+  height: 400px;
+  background-image: url("../images/avatars/org_ai.jpeg");
 }
-#organizer .organizer-badges li a.badge-sp-sd {
+#organizer-or .organizer-or-badges li a.badge-org-nj {
   width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sp_SD.jpg");
+  height: 400px;
+  background-image: url("../images/avatars/org_nj.jpeg");
 }
-#organizer .organizer-badges li a.badge-sp-sre {
-  width: 300px;
-  height: 300px;
-  background-image: url("../images/avatars/sp_SRe.jpg");
-}
+
 /* ===================================================================
 *  14. sponsors - (_layout.scss)
 *
@@ -3514,6 +3491,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   width: 300px;
   height: 120px;
   background-image: url("../images/sponsors/embo.svg");
+}
+#sponsors .sponsors-badges li a.badge-placeholder-tf {
+  width: 300px;
+  height: 120px;
+  background-image: url("../images/sponsors/tf.png");
 }
 /* ------------------------------------------------------------------- 
 * responsive:
